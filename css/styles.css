@@ -60,9 +60,22 @@ header {
     margin-right: 237px;
 }
 
+.nav-text .nav-list {
+    font-weight: 600;
+}
 .nav-list {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #22343d;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
+
+/* .nav-list::first-line {
+    font-weight: 600;
+    color: #c40b55;
+} */
